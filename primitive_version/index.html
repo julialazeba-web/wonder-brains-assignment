@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fish of Fortune – Primitive Prototype (v1)</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="app">
+
+      <!-- 3D canvas -->
+      <div id="game-container"></div>
+
+      <!-- HTML UI below canvas -->
+      <div id="ui-layer">
+
+        <!-- Queue slots (centered) — characters waiting after a full lap -->
+        <div id="queue-slots">
+          <!-- Filled dynamically by uiManager.js -->
+        </div>
+
+        <!-- Character spawn pool -->
+        <div id="character-pool">
+          <!-- Columns filled dynamically by uiManager.js -->
+        </div>
+
+      </div>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
