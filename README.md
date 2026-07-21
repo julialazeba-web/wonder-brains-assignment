@@ -12,9 +12,9 @@ Prototype recreation of a tile-collection game using Three.js, matching the game
 
 ```
 Wonder Brains/
-├── primitive_version/    ← Version A: primitives only (cubes, spheres, cylinders)
+├── v1-primitive/    ← Version A: primitives only (cubes, spheres, cylinders)
 │   └── ...
-└── styled_version/       ← Version B: Fish of Fortune art style (coming soon)
+└── Template/        ← Original assignment materials (PDFs, reference video) - ignored in Git
 ```
 
 ---
@@ -26,7 +26,7 @@ All gameplay mechanics built with basic Three.js geometry. No external art asset
 ### How to Run
 
 ```bash
-cd primitive_version
+cd v1-primitive
 npm install
 npm run dev
 # Open http://localhost:5173
@@ -43,7 +43,7 @@ npm run build
 
 ## Tweakable Parameters (Version A)
 
-All parameters live in **`primitive_version/config.js`**.
+All parameters live in **`v1-primitive/config.js`**.
 You can edit them without touching any game logic.
 
 ### Grid size
